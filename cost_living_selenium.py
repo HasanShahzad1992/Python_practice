@@ -36,6 +36,7 @@ import os
 #     # list.append([target_cities,target_cost_living])
 # workbook.save("cost_of_living.xlsx")
 # driver.quit()
+print(1)
 workbook=xl.load_workbook("cost_of_living.xlsx")
 sheet1=workbook["cost_of_living"]
 dict_city_cost_living={}
